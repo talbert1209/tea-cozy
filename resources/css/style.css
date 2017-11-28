@@ -1,0 +1,79 @@
+/* Format body elements */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* ---------------------------------------------- Header ------------------------------------------ */
+
+/* Format header container */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+/* Format header-img */
+.header-img {
+  padding: 4px 10px;
+}
+
+/* Re-size logo */
+#tea-cozy-logo {
+  height: 50px;
+}
+
+/* Space out nav links */
+nav span {
+  padding: 10px;
+}
+
+/* Format a elements in header */
+header a {
+  color: seashell;
+}
+
+/* ---------------------------------------------- Body of Site ------------------------------------ */
+
+/* Create main flexbox container */
+.container.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 39px;
+  margin: 0;
+}
+
+/* Size and format 3 container divs */
+.container.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/mission-background.jpg");
+}
+
+.container.tea-of-month {
+  height: 400px;
+  width: 1000px;
+}
+
+.container.locations {
+  height: 500px;
+  width: 1200px;
+}
+
+/* Give containers temporary borders and margins */
+.container {
+  border: solid 1px white;
+  margin: 30px;
+}
