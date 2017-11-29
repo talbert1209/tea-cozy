@@ -102,9 +102,39 @@ header a {
   margin: 10px;
 }
 
+/* Center Locations title */
+.container.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../images/locations-background.jpg");
+}
+
+/* Remove margins from locations title */
+.container.locations h2 {
+  margin: 0;
+}
+
+/* Format container inside locations container */
+.container.locations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* size location boxes */
+.container.location-box {
+  width: 300px;
+  text-align: center;
+  margin: 15px 20px;
+  background-color: black;
+}
+
 /* Give containers temporary borders and margins */
 .container {
-  border: solid 1px white;
+  border: solid black 1px;
   margin: 30px;
 }
 
