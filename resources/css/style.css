@@ -133,12 +133,6 @@ header a {
   background-color: black;
 }
 
-/* Give containers temporary borders and margins */
-.container {
-  /* border: solid white 1px; */
-  margin: 30px;
-}
-
 /* Format Our Mission container */
 .container.our-mission {
   text-align: center;
@@ -164,4 +158,10 @@ header a {
 /* Re-sizing h5 font */
 h5 {
   font-size: 16px;
+}
+
+/* Temporary container boarders, also add margins to large containers. (This just made the page easier to build) */
+.container {
+  /* border: solid white 1px; */
+  margin: 20px;
 }
