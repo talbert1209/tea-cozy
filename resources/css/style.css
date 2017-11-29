@@ -68,13 +68,38 @@ header a {
 }
 
 .container.tea-of-month {
-  height: 400px;
   width: 1000px;
+  text-align: center;
 }
 
 .container.locations {
   height: 500px;
   width: 1200px;
+}
+
+/* Format secondary div in tea of the month */
+.container.middle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* Format five containers inside tea of the month */
+.container.five-containers {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Size five images */
+.five-img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Format captions */
+.caption h4 {
+  margin: 10px;
 }
 
 /* Give containers temporary borders and margins */
