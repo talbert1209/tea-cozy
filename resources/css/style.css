@@ -21,6 +21,8 @@ header {
   top: 0;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 5;
 }
 
 /* Format header-img */
@@ -60,6 +62,9 @@ header a {
   height: 700px;
   width: 1200px;
   background-image: url("../images/mission-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container.tea-of-month {
@@ -76,4 +81,12 @@ header a {
 .container {
   border: solid 1px white;
   margin: 30px;
+}
+
+/* Format Our Mission container */
+.container.our-mission {
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  width: 100%;
 }
